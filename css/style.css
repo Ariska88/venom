@@ -136,11 +136,7 @@ img {
   line-height: 1.5;
 }
 .column-2 {
-  -webkit-column-count: 2;
-  -moz-column-count: 2;
   column-count: 2;
-  -webkit-column-gap: 20px;
-  -moz-column-gap: 20px;
   column-gap: 20px;
   max-width: 350px;
 }
