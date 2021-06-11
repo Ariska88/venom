@@ -13,12 +13,21 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body class="blood">
-<div class="container"><header class="header">
-    <a href='/' class="logo-link">
+<div class="container">
+    <header class="header">
+    <a href="/" class="logo-link">
     <img width="46" height="71" src="img/venom-logo.png" alt="logo-venom-2" class="logo-image">
 </a>
 <nav class="nav">
-    <ul class="nav-menu">
+    <button class="menu-button">
+        <img src="/img/burger-menu.svg" alt="icon: burger-menu" class="menu-button-icon">
+        <span class="menu-button-text">меню</span>
+    </button>
+    <button class="menu-close">
+        <span class="menu-close-text">закрыть</span>
+        <img src="/img/arrow.svg" alt="icon: arrow right" class="menu-close-icon">
+    </button>
+        <ul class="nav-menu">
         <li class="nav-menu-item">
             <a href="about.html" class="nav-menu-link">о фильме</a></li>
         <li class="nav-menu-item">
@@ -29,8 +38,7 @@
             <a href="premier.html" class="nav-menu-link">премьера</a></li>
     </ul>
 </nav>
-<!-- /.nav -->
-</header> 
+</header>
   <div class="film">
 <div class="film-description">
     <span class="film-date">16 сентября 2021</span>
@@ -52,5 +60,6 @@
  </div>
  <!-- /.button-group -->
   <img src="img/venom-2.png" alt="photo: venom" class="venom">  
+  <script src="js/main.js"></script>
 </body>
 </html>
